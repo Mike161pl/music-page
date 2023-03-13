@@ -1,0 +1,397 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html,
+body {
+	font-size: 62.5%;
+	width: 100%;
+	scroll-behavior: smooth;
+}
+body {
+	font-family: 'Raleway', sans-serif;
+	background-color: #a8a8a8;
+}
+/* nav */
+.nav {
+	display: none;
+}
+.active {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	padding: 1rem;
+	text-align: center;
+	font-size: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+	z-index: 15;
+}
+.nav__list-burger-btn {
+	display: flex;
+	position: fixed;
+	top: 2rem;
+	right: 2rem;
+	padding: 1rem;
+	color: #ff6d50;
+	background: none;
+	border: none;
+	cursor: pointer;
+	font-size: 3rem;
+	z-index: 20;
+}
+.nav__list {
+	display: block;
+	align-items: center;
+	justify-content: center;
+}
+.nav__list-item {
+	padding: 1rem;
+}
+.nav__list-item a {
+	padding: 0.5rem 2rem;
+	font-size: 2rem;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 700;
+	letter-spacing: 2px;
+	line-height: 3rem;
+	transition: color 0.3s;
+}
+
+/* header */
+
+.header {
+	width: 100%;
+	height: 40vh;
+}
+.header__img {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	background-image: url('../img/music-player-g9f0e1d6f9_640.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.header__text {
+	text-align: center;
+	color: #fff;
+	padding: 1rem;
+	z-index: 1;
+}
+.header__title {
+	font-size: 4rem;
+	font-family: 'Pacifico', cursive;
+}
+.header__text {
+	font-size: 2rem;
+}
+
+.header__btn:hover {
+	background-color: #283d54;
+}
+.header__shadow {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+/* section-trivias */
+.trivias {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	color: #fff;
+}
+.trivias__card {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	margin: 2rem;
+	background-position: center;
+	text-align: center;
+}
+.card-one {
+	background-image: url('../img/man-gf5acedf39_640.jpg');
+}
+.card-two {
+	background-image: url('../img/smiley-g21762b297_640.jpg');
+}
+.card-three {
+	background-image: url('../img/apple-g9128d9012_640.jpg');
+}
+.trivias__card-text {
+	position: relative;
+	padding: 2rem;
+	font-size: 3rem;
+	z-index: 10;
+}
+.trivias__card-shadow {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	background-color: rgba(0, 0, 0, 0.45);
+	z-index: 0;
+}
+.trivias__card-title {
+	position: relative;
+	padding: 2rem;
+	font-size: 4rem;
+	color: rgb(255, 255, 255);
+}
+/* section-article */
+.article {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+}
+.article__card {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	height: 500px;
+	margin: 2rem;
+	text-align: center;
+	overflow: auto;
+}
+.article__card-img {
+	padding: 2em;
+	height: 100%;
+	width: 100%;
+	border-radius: 8px;
+	background-size: cover;
+	background-position: center;
+	opacity: 0.6;
+	transition: opacity 1s, transform 1s;
+}
+.article__card-img:hover {
+	opacity: 0;
+}
+.article__card:hover .two {
+	transform: rotateY(-180deg);
+	opacity: 0;
+}
+.article__card:hover .second {
+	opacity: 1;
+	transform: rotateY(0deg);
+}
+.article__card-img-title {
+	font-size: 4rem;
+	color: #ff2a00;
+	padding: 3rem;
+}
+.article__card-img-info {
+	padding: 2rem;
+	font-size: 2rem;
+	color: #ff2a00;
+}
+.one {
+	background-image: url('../img/0005KGYLAK3MYWQ0-C122.jpg');
+}
+.two {
+	background-image: url('../img/61Hiy5mEcyL._AC_SL1500_.jpg');
+	background-position: top 3em left 0;
+}
+.three {
+	background-image: url('../img/_5xAXOi-_400x400.jpg');
+}
+.article__card-info {
+	position: absolute;
+	padding: 2rem;
+	height: 100%;
+	width: 100%;
+	font-size: 1.8rem;
+	border-radius: 8px;
+	background-color: #fff;
+	opacity: 0;
+	transition: opacity 1s, transform 1s;
+}
+.article__card .second {
+	transform: rotateY(180deg);
+}
+.article__card-info:hover {
+	opacity: 1;
+}
+.article__card-title {
+	position: absolute;
+	top: 0;
+	padding: 2rem;
+	font-size: 3rem;
+}
+.article__card-text {
+	position: absolute;
+	top: 4em;
+	padding: 2rem;
+	margin: 1rem 0;
+}
+
+/* section-audio */
+
+.audio {
+	display: block;
+	justify-content: center;
+	width: 100%;
+	flex-wrap: wrap;
+}
+.audio__card {
+	padding: 2rem;
+	margin: 2rem;
+	background-color: #c6c6c7;
+	border-radius: 25px;
+}
+.audio__card-title {
+	padding: 2rem;
+	text-align: center;
+	font-size: 3rem;
+	color: #3e3e3e;
+}
+.player {width: 100%;
+	border-radius: 25px;
+	overflow: hidden;
+}
+
+/* footer */
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem;
+	font-size: 1.5rem;
+	width: 100%;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.footer__text {
+	padding: 1rem 2rem;
+}
+.footer__icon {
+	padding: 1rem 2rem;
+	font-size: 3rem;
+}
+
+.footer__icon a {
+	color: #283d54;
+	padding: 1rem;
+	transition: color 0.3s;
+}
+.footer__icon a:hover {
+	color: #556576;
+}
+@media (min-width: 992px) {
+	/* /nav/ */
+	.nav {
+		display: flex;
+		justify-content: center;
+		position: fixed;
+		top: 0px;
+		padding: 1rem;
+		text-align: center;
+		font-size: 0;
+		width: 100%;
+		height: auto;
+		background-color: rgba(0, 0, 0, 0.8);
+		z-index: 20;
+	}
+	.nav__list-burger-btn {
+		display: none;
+	}
+	.nav__list {
+		display: block;
+	}
+	.nav__list-item {
+		display: inline-block;
+		padding: 1rem;
+	}
+	.nav__list-item a {
+		padding: 0.5rem 2rem;
+		font-size: 2rem;
+		color: #fff;
+		text-decoration: none;
+		font-weight: 700;
+		letter-spacing: 2px;
+		transition: color 0.3s;
+	}
+	.nav__list-item a:hover {
+		color: rgb(255, 0, 0);
+		text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #fff, 0 0 82px #fff, 0 0 92px #fff,
+			0 0 102px rgb(255, 0, 0), 0 0 151px rgb(255, 0, 0);
+	}
+	/* header */
+	.header__img {
+		background-image: url('../img/music-player-gc23a0242f_1920.jpg');
+	}
+	/* trivias */
+	.card-one {
+		background-image: url('../img/man-g61c5fa58e_1920.jpg');
+	}
+	.card-two {
+		background-image: url('../img/smiley-gf230a7872_1920.jpg');
+	}
+	.card-three {
+		background-image: url('../img/apple-g1b3d9cf5f_1920.jpg');
+	}
+	.trivias {
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		width: 100%;
+		color: #fff;
+		padding: 2rem;
+	}
+	.trivias__card {
+		width: 70%;
+		max-width: 1200px;
+		border-radius: 20px;
+		transition: scale 0.3s;
+	}
+	.trivias__card-text {
+		padding: 3rem;
+		margin: 3rem;
+	}
+
+	.trivias__card:hover {
+		scale: 1.2;
+	}
+	.trivias__card-shadow {
+		border-radius: 20px;
+	}
+	/* article card */
+	.article__card {
+		width: 25%;
+	}
+	.article__card-info {
+		width: 100%;
+	}
+	.two {
+		background-position: 4em 0;
+	}
+	/* audio */
+	.audio {
+		display:flex;flex-wrap: wrap;
+	}
+	.audio__card {
+		width: 40%;
+	}
+    .player{
+        width: 100%;
+    }
+}
