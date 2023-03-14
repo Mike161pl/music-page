@@ -194,13 +194,14 @@ body {
 }
 .article__card-img-title {
 	font-size: 4rem;
-	color: #ff2a00;
+	color: #ff0000;
 	padding: 3rem;
 }
 .article__card-img-info {
 	padding: 2rem;
 	font-size: 2rem;
-	color: #ff2a00;
+	font-weight: 700;
+	color: #ff0000;
 }
 .one {
 	background-image: url('../img/0005KGYLAK3MYWQ0-C122.jpg');
@@ -262,8 +263,10 @@ body {
 	font-size: 3rem;
 	color: #3e3e3e;
 }
-.player {width: 100%;
-	border-radius: 25px;
+.player {
+	padding: 2rem 1.5rem;
+	width: 100%;
+	border-radius: 40px;
 	overflow: hidden;
 }
 
@@ -276,18 +279,18 @@ body {
 	font-size: 1.5rem;
 	width: 100%;
 	color: #fff;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.55);
 }
 .footer__text {
 	padding: 1rem 2rem;
 }
 .footer__icon {
 	padding: 1rem 2rem;
-	font-size: 3rem;
+	font-size: 4rem;
 }
 
 .footer__icon a {
-	color: #283d54;
+	color: #1d3a66;
 	padding: 1rem;
 	transition: color 0.3s;
 }
@@ -346,6 +349,7 @@ body {
 	}
 	.card-three {
 		background-image: url('../img/apple-g1b3d9cf5f_1920.jpg');
+		margin: 3rem;
 	}
 	.trivias {
 		position: relative;
@@ -386,12 +390,13 @@ body {
 	}
 	/* audio */
 	.audio {
-		display:flex;flex-wrap: wrap;
+		display: flex;
+		flex-wrap: wrap;
 	}
 	.audio__card {
 		width: 40%;
 	}
-    .player{
-        width: 100%;
-    }
+	.player {
+		width: 100%;
+	}
 }
