@@ -8,7 +8,7 @@ Responsive Wed Designed...
 
 **Screnshot**
 
-![screen](./assets/screencapture-127-0-0-1-5500-2023-04-24-14_24_13.png)
+![screen](./screencapture-mike161pl-github-io-music-page-2023-05-30-11_43_54)
 &nbsp;
  
 ## 💡 Technologies
@@ -35,6 +35,7 @@ Responsive Wed Designed...
 - BEM pattern
 - Flexbox
 - Mobile-first workflow
+ ![screen](./screencapture-mike161pl-github-io-music-page-2023-05-30-11_44_43)
 
 &nbsp;
 
