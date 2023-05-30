@@ -33,7 +33,7 @@ Responsive Wed Designed...
 - BEM pattern
 - Flexbox
 - Mobile-first workflow
- ![screen](./screencapture-mike161pl-github-io-music-page-2023-05-30-11_44_43)
+ ![screen](https://github.com/Mike161pl/music-page/blob/master/screencapture-mike161pl-github-io-music-page-2023-05-30-11_43_54.png)
 
 &nbsp;
 
