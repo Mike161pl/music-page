@@ -1,5 +1,3 @@
- ![screen](./assets/demo.png)
-
 
 # Project MusicPage
 
