@@ -42,7 +42,7 @@ Responsive Wed Designed...
 
 
 
-This is one of the first projects of my own that I created after taking courses on udemy. I wanted to check what I found out. The effect looks good, but I feel it's still not enough, so I want to keep learning and growing. I leave the project in its current version to see what mistakes I made and to be able to compare the code to see how much I've learned.
+This is one of my first own projects that I created after udemy courses. I wanted to check what I had learned. The effect looks good (just my opinion) but I feel that it's still not enough, so I want to keep learning and developing. I'm leaving the project as it is so you can see what mistakes I made and be able to compare the code to see how much I've learned. Maybe you see some bugs you want to tell me about?
 
 
 &nbsp;
